@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Building the CLI Data Gem"
-date:       2018-03-05 20:42:29 +0000
+date:       2018-03-05 15:42:31 -0500
 permalink:  building_the_cli_data_gem
 ---
 
@@ -24,4 +24,4 @@ I started building out the app, and next thing I know, the gem was (kind of) wor
 
 One of my most enjoyable experiences came during the building of this gem.  It was shortly after I figured out the scrapes that pulled the correct data and had the general layout for how the information would be displayed.  I chose a random song and it was just so satisfying when the song details displayed, knowing that I never entered any of that data in anywhere.  In fact I didn't even know anything about the song, I hadn't even heard of it or the artist.  The gem went and got that data for me.  Such a simple thing, and I know this is a super simple program to build (I kinda say Im still in kindergarten of programming), but man was that a powerful and rewarding experience for me.  
 
-I kept at it and I honestly can't believe how quickly this all came together.  I had a ton of fun doing it, and I honestly cannot wait to just keep pushing through the Flatiron program and be able to build full websites and web apps.  I am loving every second of it.  
+I kept at it and I honestly can't believe how quickly this all came together.  Once I thought I had it pretty much where it needed to be, I went through the rest of the videos on anti-patterns, and refractoring examples, and realized how many errors were in my code and was able to really clean up alot of it up.  I am sure during my assessment they will still find a ton of things to fix, but it feels good to see some things you are doing wrong and work to correct them.  I had a ton of fun doing it, and I honestly cannot wait to just keep pushing through the Flatiron program and be able to build full websites and web apps.  I am loving every second of it.  
