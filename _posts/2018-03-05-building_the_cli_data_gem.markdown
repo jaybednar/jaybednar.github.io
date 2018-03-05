@@ -1,0 +1,27 @@
+---
+layout: post
+title:      "Building the CLI Data Gem"
+date:       2018-03-05 20:42:29 +0000
+permalink:  building_the_cli_data_gem
+---
+
+
+Not going to lie, I was pretty nervous when I first opened the lesson for the CLI Data Gem Project.  Seems kinda silly, I know, but it's the first major project in the course, and what I was really thinking about, was its the first program I would be building pretty much on my own, with no instructions or tests!  I downloaded the code for the now-playing gem and the worlds-best-restaurants gem and started looking at all the different files.  The Gemfile, the .gemspec, it was all pretty overwhelming. 
+
+I have a tendancy to overthink things initially, but then I typically calm down and figure them out.
+
+I calmed down alot when I saw all the resources at the bottom of the lesson. 
+
+I started with the walkthrough where Avi builds the "daily-deal" gem.  I took notes, and I coded the entire thing along with the video. This was amazingly helpful.  In the first 10 minutes, you learn that creating a gem is as simple as going into your terminal and typing "bundle gem whatever_your_gem_will_be_called", and poof!  all those files are created!  Wow, much less scary.  At this point I really had an awesome thought about programming.  I now feel like pretty much all things with programming, while they are definitely going to seem daunting to newbies, you can kind of rest assured that you're not going to need to re-create the wheel.  Talented people have probably done whatever you are trying to do, and if there wasn't a nice shortcut to do it when they were doing it, there's a good chance they took steps to create it or started collaborating with other majorly talented people to start creating it.  It's amazing to have the community and creativity of the programming world start to be unveiled.  It has only made me MORE excited about hopefully soon joining the ranks. 
+
+After the walkthrough, and having gotten a taste of Avi's amazing insight into how to he thinks when creating an app or program, I decided to just go for it.  
+
+I brainstormed a few ideas for the gem and quickly decided I would scrape 10 of the most popular charts off of Billboard.com.  I guess all the OO Ruby lessons working on Songs/Artists/Genres kind of stuck in my head lol.  So I went to my terminal and entered "bundle gem billboard_top_100" and boom I had my initial framwork.  
+
+Per Avi's instructions in the walkthrough video, I started stubbing out the CLI with some basic stuff, thinking of what I wanted the User to see when they started the gem, and how I wanted them to interact with it.  It's funny now to look back at the first commit of my repository, and compare it to what the gem looks like now.  I've made alot of changes along the way.  I would work on it, then step away to hit the gym or eat, and while I was doing that, think of an idea or change I would want to implement, and come back and start going down that road.  I think some of Avi's best advice is to just start putting ideas down and start building things out.  Just start making progress on the app, because no matter what you think, you aren't going to have the perfect layout for the app from the beginning.  So just start getting things down and moving, and be ok with the fact that things are going to change along the way.  Just getting code into a file will actually spark ideas and keep you moving forward.  If you try to get things perfect before you start coding, you probably won't ever start coding lol.  Getting code down gives you momentum and the momentum just keeps pushing you forward.  
+
+I started building out the app, and next thing I know, the gem was (kind of) working!  Then I would make another change, and crap, it broke!  After the first few times I changed things and it broke, it kind of made me not want to make any more changes.  But after awhile, I actually didn't mind it if things "broke", because I knew the error messages would let me know what I needed to change to get it working.  Avi is so right, once you get comfortable with getting errors, the whole experience of coding is so much more enjoyable. 
+
+One of my most enjoyable experiences came during the building of this gem.  It was shortly after I figured out the scrapes that pulled the correct data and had the general layout for how the information would be displayed.  I chose a random song and it was just so satisfying when the song details displayed, knowing that I never entered any of that data in anywhere.  In fact I didn't even know anything about the song, I hadn't even heard of it or the artist.  The gem went and got that data for me.  Such a simple thing, and I know this is a super simple program to build (I kinda say Im still in kindergarten of programming), but man was that a powerful and rewarding experience for me.  
+
+I kept at it and I honestly can't believe how quickly this all came together.  I had a ton of fun doing it, and I honestly cannot wait to just keep pushing through the Flatiron program and be able to build full websites and web apps.  I am loving every second of it.  
